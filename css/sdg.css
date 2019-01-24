@@ -1,0 +1,96 @@
+body, html{
+     height: 100%;
+}
+.sdg{
+	background: #D70000;
+	overflow: hidden;
+}
+	
+.sdg a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	text-decoration :none; 
+	padding :20px 25px;
+	font-size:20px;
+	border-radius: 4px;
+}
+.sdg a:hover{
+	background-color:#f7b906;
+	color:black; 
+}
+.sdg a.active {
+	background-color: #f7b906;
+	color: white;
+	float: right;
+}
+@media screen and (max-width: 500px){.sdg a{
+
+	float:left;
+	display: block;
+	text-align: left;
+}
+.sdg-right{float: none;}
+}
+.sdg-image{
+	background-image: url("img/1.jpg");
+	height:90%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position:relative;
+}
+.sdg-text{
+	text-align: center;
+	position:  absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color:#D70000;
+}
+.sdg-text h1{
+	font-size:3em;
+}
+.sdg-text a button{
+	border-radius: 10px;
+	color: white;
+	border-color: white;
+	background-color:#D70000;
+	padding:10px;
+}	
+/*.omo{
+	height: 300px;
+	width: 400px;
+	background: green;
+}
+#osasere{
+	height: 400px;
+	width: 200px;
+	background: blue;
+}
+.me{
+	border-radius: 40px;
+	border: 10px solid black;
+}*/
+.imagesdg{
+    width:100%;
+    height:500%;
+  
+}
+.footer{
+	background-color: gold;
+	padding: 30px;
+	text-align: center;
+	position: bottom;
+	
+}
+.first{
+	display: inline-flex;
+}
+.second{
+	display: inline-flex;
+}
+.third{
+	display: inline-flex;
+}
